@@ -6,11 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:ital@1&display=swap');
         *{
             box-sizing: border-box;
         }
         body{
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: 'Roboto', sans-serif;
         }
         header{
             background-color: #666666;
@@ -18,11 +20,12 @@
             text-align: center;
             font-size: 35px;
             color: white;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Roboto Mono', monospace;
         }
         nav{
             float: left;
             width: 30%;
-            height: 300px;
             background: #ccc;
             padding: 20px;
         }
@@ -35,7 +38,6 @@
             padding: 20px;
             width: 70%;
             background-color: #f1f1f1;
-            height: 300px;
         }
         section.after{
             content: "";
@@ -48,6 +50,11 @@
             text-align: center;
             color: white;
 
+        }
+        @media only screen and (max-width: 620px){
+            article, nav{
+                width: 100%;
+            }
         }
     </style>
 </head>
@@ -83,6 +90,7 @@
     <article>
         <h1>Macaco rapero</h1>
         <p>Macaquiño gangster con drill</p>
+        <iframe src="https://www.youtube.com/embed/Bs6dd4pT1s4?start=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </article>
     </section>
     <footer>
