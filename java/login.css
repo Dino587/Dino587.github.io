@@ -1,0 +1,10 @@
+input{
+    background-color: aquamarine;
+}
+button {
+    background-color: gray;
+    color: black;
+    padding: 10px;
+    border: 1px unset black;
+    cursor: pointer;
+}
